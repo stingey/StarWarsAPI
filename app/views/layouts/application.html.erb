@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>StarWars</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link rel="icon" type="image/png" href="https://cdn2.iconfinder.com/data/icons/starwars/icons/128/clone-old.png" />
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

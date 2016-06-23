@@ -1,0 +1,93 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+@font-face {
+    font-family: "starfil";
+    src: url(/assets/Starjedi.ttf) format("truetype");
+
+  }
+@font-face {
+      font-family: "starline";
+      src: url(/assets/Starjhol.ttf) format("truetype");
+    }
+@font-face {
+        font-family: "goth";
+        src: url(/assets/serifgothicblackregular.ttf) format("truetype");
+      }
+@font-face {
+              font-family: "distgalax";
+              src: url(/assets/SFDistantGalaxy.ttf) format("truetype");
+            }
+@font-face {
+            font-family: "dgoutline";
+            src: url(/assets/distgaloutline.ttf) format("truetype");
+}
+body {
+  background-image: url('http://i.imgur.com/WdJLMuJ.jpg');
+  background-repeat: no-repeat;
+  background-size:auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.link{
+  color:#9966ff;
+  text-decoration:underline;
+}
+.starry{
+  color:#e6e600;
+  font-family: distgalax;
+  font-size: 140px;
+  line-height:120px;
+  font-weight:100;
+  margin: auto;
+}
+.subhead{
+  color:white;
+  font-size: 40px;
+  font-family: starline;
+  vertical-align: top;
+  line-height:25px;
+  margin:0px;
+}
+.lister{
+  font-family: starfil;
+  font-size: 30px;
+  color: white;
+  font-weight: 100;
+}
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* Main */
+.main {
+  color: #fff;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+h2{
+  font-size: 44px;
+  font-weight: 300;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size: auto 100%;
+    }
+    .container {
+        width: 100%;
+    }
+}
