@@ -1,0 +1,13 @@
+<div class="main">
+  <p class="subhead"><%=@name%></p>
+  <p class="lister">height: <%=@height%></p>
+  <p class="lister">mass: <%=@mass%></p>
+  <p class="lister">hair color: <%=@haircolor%></p>
+  <p class="lister">skin color: <%=@skincolor%></p>
+  <p class="lister">eye color: <%=@eyecolor%></p>
+  <p class="lister">birth year: <%=@birthyear%></p>
+  <p class="lister">home world: <%=link_to(@planet_name,{action:"planetprofile",id:@worldid})%></p>
+  <button><%= link_to("go back",{action:"people"}) %></button>
+  <button><%= link_to("home",{action:"home"}) %></button>
+
+</div>

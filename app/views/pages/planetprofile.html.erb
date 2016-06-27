@@ -1,0 +1,11 @@
+<div class="main">
+  <p class="subhead"><%=@name%></p>
+  <p class="lister">population: <%=number_with_delimiter(@population,delimiter:',')%></p>
+  <p class="lister">terrain: <%=@terrain%></p>
+  <p class="lister">climate: <%=@climate%></p>
+  <p class="lister">gravity: <%=@gravity%></p>
+  <p class="lister">rotational period: <%=@rotation%> hours</p>
+  <button><%= link_to("go back",{action:"planets"}) %></button>
+  <button><%= link_to("home",{action:"home"}) %></button>
+
+</div>

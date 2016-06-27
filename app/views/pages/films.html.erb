@@ -1,9 +1,8 @@
 <dir class = "main">
-	<h1>film page</h1>
-	<% z = 1 %>
+	<p class="subhead">film page </p>
+
 	<%for x in @film%>
-      <p><%= x['title']%></p>
-      <%z+=1%>
+      <p class="lister"><%= link_to(x['title'].downcase,{action:"filmsprofile",id:x['id']})%></p>
 
     <%end%>
 </dir>

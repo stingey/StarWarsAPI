@@ -1,9 +1,8 @@
 <dir class = "main">
-	<h1>starship page</h1>
-	<% z = 1 %>
-	<%for x in @starship%>
-      <p><%= x['name']%></p>
-      <%z+=1%>
+	<p class="subhead">starships</p>
 
+	<%for x in @starship%>
+      <p class="lister"><%= x['name'].downcase%></p>
     <%end%>
+		<button><%= link_to("home",{action:"home"}) %></button>
 </dir>

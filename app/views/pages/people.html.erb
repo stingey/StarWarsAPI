@@ -1,12 +1,13 @@
 <div class = "main">
-	<h1>people page</h1>
-	<% z = 1 %>
+	<p class ="subhead">characters</p>
+
 	<%for x in @people%>
-      <p><%= x['name']%></p>
-      <%z+=1%>
+      <p class = "lister"><%=link_to(x['name'].downcase,{action: "peopleprofile",id:x['id']})%></p>
+
 
     <%end%>
+		<button><%= link_to("home",{action:"home"}) %></button>
 
-		
+
 
 </div>

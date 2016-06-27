@@ -1,9 +1,9 @@
-<dir class = "main">
-	<h1>planet page</h1>
-	<% z = 1 %>
+<div class = "main">
+	<p class="subhead">planets</p>
+
 	<%for x in @planet%>
-      <p><%= x['name']%></p>
-      <%z+=1%>
+      <p class="lister"><%=link_to(x['name'].downcase,{action:"planetprofile",id:x['id']})%></p>
 
     <%end%>
-</dir>
+		<button><%= link_to("home",{action:"home"}) %></button>
+</div>

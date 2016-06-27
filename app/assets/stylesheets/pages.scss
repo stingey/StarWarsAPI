@@ -29,10 +29,11 @@ html, body {
 }
 body {
   background-image: url('http://i.imgur.com/WdJLMuJ.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size:auto;
-  font-family: 'Source Sans Pro', sans-serif;
+
 }
+
 .link{
   color:#9966ff;
   text-decoration:underline;
@@ -41,16 +42,16 @@ body {
   color:#e6e600;
   font-family: distgalax;
   font-size: 140px;
-  line-height:120px;
+  line-height: 120px;
   font-weight:100;
   margin: auto;
 }
 .subhead{
   color:white;
-  font-size: 40px;
+  font-size: 46px;
   font-family: starline;
   vertical-align: top;
-  line-height:25px;
+  line-height: 35px;
   margin:0px;
 }
 .lister{
@@ -58,6 +59,7 @@ body {
   font-size: 30px;
   color: white;
   font-weight: 100;
+  line-height: 20px;
 }
 .container {
   margin: 0 auto;
@@ -66,14 +68,17 @@ body {
 
 /* Main */
 .main {
-  color: #fff;
   position: relative;
-  top: 100px;
+  top: 80px;
   text-align: center;
 }
-h2{
-  font-size: 44px;
-  font-weight: 300;
+button{
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: distgalax;
+  font-weight:100;
+
+  color:black;
 }
 
 
