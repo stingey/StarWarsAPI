@@ -8,24 +8,24 @@ html, body {
 
 @font-face {
     font-family: "starfil";
-    src: url(/assets/Starjedi.ttf) format("truetype");
+    src: asset-url('Starjedi.ttf') format("truetype");
 
   }
 @font-face {
       font-family: "starline";
-      src: url(/assets/Starjhol.ttf) format("truetype");
+      src: asset-url('Starjhol.ttf') format("truetype");
     }
 @font-face {
         font-family: "goth";
-        src: url(/assets/serifgothicblackregular.ttf) format("truetype");
+        src: asset-url('serifgothicblackregular.ttf') format("truetype");
       }
 @font-face {
               font-family: "distgalax";
-              src: url(/assets/SFDistantGalaxy.ttf) format("truetype");
+              src: asset-url('SFDistantGalaxy.ttf') format("truetype");
             }
 @font-face {
             font-family: "dgoutline";
-            src: url(/assets/distgaloutline.ttf) format("truetype");
+            src: asset-url('distgaloutline.ttf') format("truetype");
 }
 body {
   background-image: url('http://i.imgur.com/WdJLMuJ.jpg');
@@ -65,7 +65,9 @@ body {
   margin: 0 auto;
   width: 960px;
 }
-
+.yelp:hover{
+  color:#e6e600;
+}
 /* Main */
 .main {
   position: relative;

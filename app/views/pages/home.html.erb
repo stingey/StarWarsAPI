@@ -3,6 +3,6 @@
 	<p class="subhead">rails api project by spenser tingey</p>
 
 	<% for x, y in @menuitems %>
-			<p class = "lister"><%= link_to(x, {action: x.split('/')[-1]})%></p>
+			<p class = "lister"><%= link_to(x, {action: x.split('/')[-1]},class:"yelp")%></p>
 		<%end%>
 </div>

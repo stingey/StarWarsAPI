@@ -2,7 +2,7 @@
 	<p class="subhead">planets</p>
 
 	<%for x in @planet%>
-      <p class="lister"><%=link_to(x['name'].downcase,{action:"planetprofile",id:x['id']})%></p>
+      <p class="lister"><%=link_to(x['name'].downcase,{action:"planetprofile",id:x['id']},class:"yelp")%></p>
 
     <%end%>
 		<button><%= link_to("home",{action:"home"}) %></button>

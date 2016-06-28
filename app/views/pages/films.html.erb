@@ -2,7 +2,7 @@
 	<p class="subhead">film page </p>
 
 	<%for x in @film%>
-      <p class="lister"><%= link_to(x['title'].downcase,{action:"filmsprofile",id:x['id']})%></p>
+      <p class="lister"><%= link_to(x['title'].downcase,{action:"filmsprofile",id:x['id']},class:"yelp")%></p>
 
     <%end%>
 </dir>

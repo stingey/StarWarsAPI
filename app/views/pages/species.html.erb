@@ -2,7 +2,7 @@
 	<p class="subhead">species</p>
 
 	<%for x in @species%>
-      <p class="lister"><%= link_to(x['name'].downcase,{action:"speciesprofile",id:x['id']})%></p>
+      <p class="lister"><%= link_to(x['name'].downcase,{action:"speciesprofile",id:x['id']},class:"yelp")%></p>
 
     <%end%>
 		<button><%= link_to("home",{action:"home"}) %></button>
