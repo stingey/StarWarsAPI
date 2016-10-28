@@ -128,7 +128,7 @@ class PagesController < ApplicationController
 		read = index.read
 		parsed_json = JSON.parse(read)
 		@title=parsed_json['title'].downcase
-		@episode=parsed_json['episode_id'].downcase
+		@episode=parsed_json['episode_id']
 		@opening=parsed_json['opening_crawl'].downcase
 		@director=parsed_json['director'].downcase
 		@release=parsed_json['release_date'].downcase

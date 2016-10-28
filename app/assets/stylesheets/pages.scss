@@ -5,7 +5,6 @@ html, body {
   height: 100%;
   margin: 0;
 }
-
 @font-face {
     font-family: "starfil";
     src: asset-url('Starjedi.ttf') format("truetype");
@@ -53,6 +52,7 @@ body {
   vertical-align: top;
   line-height: 35px;
   margin:0px;
+
 }
 .lister{
   font-family: starfil;
@@ -73,6 +73,8 @@ body {
   position: relative;
   top: 80px;
   text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
 }
 button{
   border-radius: 15px;
